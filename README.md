@@ -1,7 +1,7 @@
 
  Secure Access to Private Subnets Using an AWS Bastion Host
 
-![Alt text]( Basion Host DRW.png)
+![Alt text]( BeeQ-bASTION-hOST.png)
 
 
 By serving as a safe point of entry for administrative access, an AWS bastion host
