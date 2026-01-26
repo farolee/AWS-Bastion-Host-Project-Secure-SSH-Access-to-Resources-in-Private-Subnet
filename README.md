@@ -1,4 +1,9 @@
-      Secure Access to Private Subnets Using an AWS Bastion Host
+
+ Secure Access to Private Subnets Using an AWS Bastion Host
+
+![Alt text](Ola-AWS Bastion Host Reference Architecture)
+
+
 By serving as a safe point of entry for administrative access, an AWS bastion host
 safeguards infrastructure within a private subnet. Databases and EC2 instances are 
 examples of private subnet resources that cannot be accessed directly from the internet
@@ -10,13 +15,22 @@ CloudTrail and CloudWatch can log and monitor activity because all access is cen
 facilitating auditing and quicker incident response. All things considered, an AWS bastion 
 host improves cloud security for private subnet infrastructure and offers defense-in-depth.
 
-The solution is built inside a custom Virtual Private Cloud (VPC) and designed for high availability across two Availability Zones (AZs).
-Key Architecture Components
-•	VPC with public and private subnets across two AZs
-•	Internet Gateway for public internet access
-•	Route tables for the Subnets.
-•	NAT Gateway for outbound internet access from private resources
-•	Bastion Host for secure administrative access
-•	Security Groups acting as firewalls.
-•	VPV flow-logs monitor outbound and inbound traffic.
 
+The solution is built within a custom Amazon Virtual Private Cloud (VPC) and is designed
+for high availability across two Availability Zones (AZs).
+
+AWS Resources Used
+
+VPC with public and private subnets distributed across two AZs
+
+Internet Gateway (IGW) to enable public internet access for resources in public subnets
+
+Route Tables associated with public and private subnets to control traffic routing
+
+NAT Gateway to allow outbound internet access for resources in private subnets
+
+Bastion Host to provide secure administrative access to private resources
+
+Security Groups acting as stateful firewalls to control inbound and outbound traffic
+
+VPC Flow Logs to monitor and log inbound and outbound network traffic
