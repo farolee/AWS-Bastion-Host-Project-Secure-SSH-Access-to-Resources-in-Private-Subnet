@@ -22,8 +22,11 @@ With the Jump server in the private Subnet,the infrastures in the private subnet
 achived the following :
 
 ✔ OS updates
+
 ✔ Downloading packages & dependencies
+
 ✔ Applications needing external APIs
+
 ✔ Legacy software that needs internet access
 
 
@@ -50,8 +53,8 @@ for high availability across two Availability Zones (AZs).
 📌Outcomes And Challenges
 
 Successfully deployed a production ready infrastrueture,didnt come without its challenges,
-in term of cost and and choice of service and Implemented AWS best practices for security and scalability
-Gained hands-on experience with real-world reference architecture
+in term of cost and and choice of service and Implemented AWS best practices for security
+and scalability. Gained hands-on experience with real-world reference architecture
 Demonstrated end-to-end infrastructure design using AWS services
 
 
