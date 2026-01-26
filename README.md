@@ -1,7 +1,7 @@
 
  Secure Access to Private Subnets Using an AWS Bastion Host
 
-![Alt text](Ola-AWS Bastion Host Reference Architecture)
+![Alt text](BeeQ bASTION hOST)
 
 
 By serving as a safe point of entry for administrative access, an AWS bastion host
