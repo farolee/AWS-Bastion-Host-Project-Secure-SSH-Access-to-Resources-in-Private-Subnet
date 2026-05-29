@@ -3,10 +3,7 @@
 
 <img width="733" height="734" alt="image" src="https://github.com/user-attachments/assets/ebc4ac3e-6ba9-4470-b8c1-8ee1a4501a98" />
 
-📌AWS Networking: Granting Internet Access to Resources in Private Subnets
-The Default State
-
-The resources deployed within a Private Subnet in an Amazon VPC do not have 
+📌The resources deployed within a Private Subnet in an Amazon VPC do not have 
 direct outbound internet access. Likewise, external users on the internet cannot
 directly reach or access those resources. This isolation improves security by
 keeping sensitive systems away from public exposure.
